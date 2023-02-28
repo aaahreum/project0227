@@ -23,7 +23,7 @@
 <%
 	ResultSet rs=null;
 	PreparedStatement pstmt=null;
-	String sql="select * from lecturer0224";
+	String sql="select * from lecturer0224 order by idx";
 	try{
 		pstmt=conn.prepareStatement(sql);
 		rs=pstmt.executeQuery();
@@ -37,9 +37,9 @@
 	<td id=td1><%=rs.getString("major") %></td>
 	<td id=td1><%=rs.getString("field") %></td>
 	<td id=td1>
-		<a href="lecturerUpdate.jsp?id=<%=rs.getString(1)%>">수정</a>/
+		<a href="lecturerUpdate.jsp?id=<%=rs.getString(1)%>" id=a1>수정</a> /
 		<a href="lecturerDelete.jsp?id=<%=rs.getString(1)%>" 
-		onclick="if(!confirm('정말로 삭제하시겠습니까?'))return false;">삭제</a>
+		onclick="if(!confirm('정말로 삭제하시겠습니까?'))return false;" id=a1>삭제</a>
 	</td>
 </tr>
 <%
@@ -50,6 +50,9 @@
 	}
 %>
 </table>
+<div align=center>
+<button type="button" id=btn2 onclick="location.href='insertLecturer.jsp'">작성</button>
+</div>
 </section>
 <%@ include file="footer.jsp" %>
 </body>

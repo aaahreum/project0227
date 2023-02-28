@@ -29,7 +29,7 @@
 	}
 %>
 
-<p>총 <%=count %>명의 학사정보가 있습니다.<p>
+<p id=p1> 총 <%=count %>명의 학사정보가 있습니다.<p>
 <table border=1 id=tab2>
 <tr>
 	<th id=th2>학번</th>
@@ -65,9 +65,9 @@
 	<td id=td1><%=phone %></td>
 	<td id=td1><%=hobby %></td>
 	<td id=td1>
-		<a href="studentUpdate.jsp?id=<%=id %>">수정</a>/
+		<a href="studentUpdate.jsp?id=<%=id %>" id=a1>수정</a> /
 		<a href="studentDelete.jsp?id=<%=id %>" 
-		onclick="if(!confirm('정말로 삭제하시겠습니까?'))return false;">삭제</a>
+		onclick="if(!confirm('정말로 삭제하시겠습니까?'))return false;" id=a1>삭제</a>
 	</td>
 </tr>
 <%
@@ -84,7 +84,7 @@
 %>
 </table>
 <div align=center>
-<button type="button" id=btn1 onclick="location.href='insertStudent.jsp'">학사정보 추가</button>
+<button type="button" id=btn2 onclick="location.href='insertStudent.jsp'">학사정보 추가</button>
 </div>
 </section>
 <%@ include file="footer.jsp" %>

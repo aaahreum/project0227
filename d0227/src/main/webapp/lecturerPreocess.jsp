@@ -23,7 +23,7 @@
 		%>
 		<script>
 			alert("강사 저장 성공");
-			location.href="lecturerSelect.jsp";
+			location.href="selectLecturer.jsp";
 		</script>
 		<%
 	}catch(Exception e){
