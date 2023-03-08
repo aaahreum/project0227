@@ -1,0 +1,183 @@
+@charset "UTF-8";
+*{
+	padding:0;
+	margin:0;
+}
+html, body{
+	width:100%;
+	height:100%;
+}
+header{
+	height:12%;
+	background:lightgray;
+	color:navy;
+	line-height:110px;
+}
+#in8{
+	height:20px;
+}
+.right{
+	float:right;
+	padding : 0 10px;
+	line-height:110px;
+	color:black;
+}
+#log{
+	float:left;
+}
+nav{
+	height:5%;
+	background:black;
+	line-height:43px;
+}
+nav ul{
+	list-style-type:none;
+}
+nav li{
+	float:left;
+}
+nav a{
+	color:white;
+	padding:0 20px;
+	text-decoration:none;
+}
+footer{
+	height:5%;
+	background:gray;
+	color:white;
+	line-height:43px;
+	text-align:center;
+}
+section{
+	height:78%;
+}
+section img{
+	width:100%;
+	height:100%;
+}
+#img{
+	margin:0 auto;
+	text-align:center;
+	width:90%;
+	height:100%;			
+}
+section h2{
+	line-height:50px;
+	text-align:center;
+}
+section a{
+	color:black;
+	text-decoration:none;
+}
+#tab1{
+	margin:0 auto;
+	width:60%
+}
+#tab2{
+	width:90%;
+	margin:0 auto;
+	text-align:center;
+}
+#tab3{
+	margin:0 auto;
+	width:90%;
+}
+#tab4{
+	margin:0 auto;
+	width:70%;
+}
+#tab5{
+	margin:0 auto;
+	width:20%;
+}
+#in1{
+	width:30%;
+	height:20px;
+	margin:0 3px;
+}
+#in2{
+	width:10%;
+	margin:0 3px;
+}
+#in3{
+	width:50%;
+	height:20px;
+	margin:0 3px;
+}
+#in4{
+	margin:0 3px;
+	height:20px;
+	text-align:center;
+}
+#in5{
+	height:20px;
+	margin:0 3px;
+	width:20%;
+	text-align:center;
+}
+#in6{
+	width:10%;
+	height:20px;
+	text-align:center;
+	margin:0 3px;
+}
+#in7{
+	margin:0 3px;
+}
+#in8{
+	height:30px;
+	width:60%;
+}
+#in9{
+	height:240px;
+	width:90%;
+}
+#th1{
+	height:40px;
+	background:whitesmoke;
+	width:30%;
+}
+#th2{
+	height:40px;
+	background:whitesmoke;
+}
+#th3 th{
+	background:gray;
+	height:30px;	
+}
+#th4{
+	height:30px;
+	background:whitesmoke;
+	text-align:center;
+	width:15%;
+}
+#td1{
+	height:40px; 
+}
+#td2{
+	text-align:center;
+	background:whitesmoke;
+	height:30px;
+}
+#td3{
+	line-height:30px;
+}
+#btn1{
+	height:30px;
+	width:80px;
+}
+#btn2{
+	height:35px;
+	width:100px;
+	background:black;
+	color:white;
+	margin:5px auto;	
+}
+
+
+
+
+
+
+
+
